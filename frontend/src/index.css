@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Outfit:wght@100..900&display=swap");
+
+body {
+  /* min-height: 100vh; */
+  background-color: rgb(255, 255, 255);
+  /* color: #ffffff; */
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: none;
+  outline: none;
+  font-family: "Outfit", Basis Grotesque Pro, Arial, sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.app {
+  width: 100%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
